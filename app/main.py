@@ -15,7 +15,7 @@ from google import genai
 from google.genai import types
 from langchain_core.messages import HumanMessage, AIMessage
 
-from graph import graph
+from app.graph import graph
 
 
 load_dotenv()
